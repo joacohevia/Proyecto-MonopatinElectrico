@@ -1,3 +1,13 @@
+# Descripción del proyecto
+
+Este proyecto consiste en el desarrollo de una aplicación orientada a la gestión de un sistema de monopatines eléctricos, diseñada bajo una arquitectura de microservicios. El objetivo principal es ofrecer una solución escalable y modular que permita administrar de forma eficiente los distintos componentes del sistema, facilitando su mantenimiento y evolución.
+
+La aplicación fue desarrollada utilizando Spring Boot para la creación de los microservicios, los cuales se comunican entre sí de manera desacoplada. Cada microservicio es responsable de una parte específica de la lógica del negocio, lo que permite una mejor organización del código y una mayor independencia entre componentes.
+
+Para la persistencia de datos, se implementó JPA/Hibernate, estableciendo conexión con distintas bases de datos según la responsabilidad de cada microservicio. Esto permite una gestión adecuada de la información, garantizando la integridad de los datos y facilitando las operaciones de alta, baja, modificación y consulta.
+
+El proyecto fue desarrollado de forma colaborativa, aplicando buenas prácticas de programación y principios de diseño orientados a la construcción de aplicaciones robustas, escalables y alineadas con estándares utilizados en entornos profesionales de desarrollo de software.
+
 # Documentación de Endpoints – Trabajo Integrador 4 (Primera Parte)
 
 ## 🔗 Swagger UI – Documentación por Microservicio
